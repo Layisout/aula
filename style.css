@@ -1,0 +1,51 @@
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para os Cards de Livros */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.card .btn-primary {
+  background-color: #FF6666;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.card .btn-primary:hover {
+  background-color: #E0FFFF;
+}
+
+/* Estilo para a Seção de Livros */
+.container h2 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: #222;
+}
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+body {
+  background-color: #CCE5FF;
+}
